@@ -10,7 +10,9 @@
 
 ## 🛠 JPA 
 * [JPA를 사용하지 않았을 때의 문제점들](https://github.com/yaezzin/DevLog/issues/13)
-* [```@Transactional```를 사용하는 이유](https://github.com/yaezzin/DevLog/issues/1)
+* [영속성 컨텍스트와 생명주기](https://github.com/yaezzin/DevLog/issues/14)
+* [영속성 컨텍스트의 이점](https://github.com/yaezzin/DevLog/issues/15)
+* [@Transactional 사용 이유](https://github.com/yaezzin/DevLog/issues/1)
 
 
 ## 📚 Python
