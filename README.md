@@ -15,15 +15,6 @@
 * [@Transactional 사용 이유](https://github.com/yaezzin/DevLog/issues/1)
 
 
-## 📚 Python
-
-* [아스키코드 반환 함수 : ```ord()```, ```char()```](https://github.com/yaezzin/DevLog/issues/4)
-* [문자열 길이 순 정렬 : ```sort(key = len)```](https://github.com/yaezzin/DevLog/issues/6)
-* [sort()에서 ```key lambda``` 사용하기](https://github.com/yaezzin/DevLog/issues/7)
-* [리스트의 최빈값을 구하자 : ```Collections.Counter()```](https://github.com/yaezzin/DevLog/issues/8)
-* [리스트에서 뽑을 수 있는 모든 경우의 수 [조합] : ```combinations()```](https://github.com/yaezzin/DevLog/issues/10)
-* [최대공약수를 구하는 함수 : ```math.gcd()```](https://github.com/yaezzin/DevLog/issues/12)
-
 
 
 
