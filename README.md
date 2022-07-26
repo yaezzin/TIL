@@ -13,4 +13,5 @@
 * [영속성 컨텍스트와 생명주기](https://github.com/yaezzin/backend-notes/issues/14)
 * [영속성 컨텍스트의 이점](https://github.com/yaezzin/backend-notes/issues/15)
 * [기본 키 생성 전략에 따른 동작 방식 차이](https://github.com/yaezzin/backend-notes/issues/16)
+* [일대다 단방향 매핑을 지양하는 이유](https://github.com/yaezzin/backend-notes/issues/17)
 * [@Transactional 사용 이유](https://github.com/yaezzin/backend-notes/issues/1)
