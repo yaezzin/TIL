@@ -8,6 +8,7 @@
 
 ## 💡 Java
 * [JVM의 구조와 동작방식](https://github.com/yaezzin/TIL/issues/21)
+* [Static과 메모리 적재 위치](https://github.com/yaezzin/TIL/issues/22)
 * [추상클래스와 인터페이스의 차이](https://github.com/yaezzin/TIL/issues/2)
 
 ## 💡 JPA 
