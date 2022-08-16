@@ -24,3 +24,7 @@
 
 ## 💡 Database
 * [식별관계와 비식별 관계](https://github.com/yaezzin/backend-notes/issues/18)
+
+## 💡 Network
+* [HTTP 구조와 메서드](https://github.com/yaezzin/TIL/issues/25)
+* [패킷의 구조](https://github.com/yaezzin/TIL/issues/24)
