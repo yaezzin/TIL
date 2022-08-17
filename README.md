@@ -10,6 +10,7 @@
 * [JVM의 구조와 동작방식](https://github.com/yaezzin/TIL/issues/21)
 * [Static과 메모리 적재 위치](https://github.com/yaezzin/TIL/issues/22)
 * [추상클래스와 인터페이스의 차이](https://github.com/yaezzin/TIL/issues/2)
+* [this()와 ](https://github.com/yaezzin/TIL/issues/27#issue-1341381062) [this](https://github.com/yaezzin/TIL/issues/27#issuecomment-1217698249)
 
 ## 💡 JPA 
 * [JPA를 사용하지 않았을 때의 문제점들](https://github.com/yaezzin/TIL/issues/13)
