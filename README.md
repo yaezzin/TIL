@@ -24,8 +24,10 @@
 
 
 ## 💡 Database
+* [인덱스 (Index)](https://github.com/yaezzin/backend-notes/issues/28)
 * [식별관계와 비식별 관계](https://github.com/yaezzin/backend-notes/issues/18)
 
+
 ## 💡 Network
-* [HTTP 구조와 메서드](https://github.com/yaezzin/TIL/issues/25)
+* [HTTP (HyperText Transfer Protocol)](https://github.com/yaezzin/TIL/issues/25)
 * [패킷의 구조](https://github.com/yaezzin/TIL/issues/24)
