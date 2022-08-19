@@ -25,6 +25,8 @@
 
 ## 💡 Database
 * [인덱스 (Index)](https://github.com/yaezzin/backend-notes/issues/28)
+* [정규화 (Normalization)](https://github.com/yaezzin/TIL/issues/29)
+* [트랜잭션 (Transaction)](https://github.com/yaezzin/TIL/issues/30)
 * [식별관계와 비식별 관계](https://github.com/yaezzin/backend-notes/issues/18)
 
 
