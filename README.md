@@ -11,8 +11,10 @@
 * [Static과 메모리 적재 위치](https://github.com/yaezzin/TIL/issues/22)
 * [추상클래스와 인터페이스의 차이](https://github.com/yaezzin/TIL/issues/2)
 * [this()와 ](https://github.com/yaezzin/TIL/issues/27#issue-1341381062) [this](https://github.com/yaezzin/TIL/issues/27#issuecomment-1217698249)
+* [Garbage Collection](https://github.com/yaezzin/TIL/issues/31)
 
-## 💡 JPA 
+## 💡 Spring & JPA 
+* [Spring Data JDBC 공식문서 정복하기 🌱](https://github.com/yaezzin/TIL/issues/32)
 * [JPA를 사용하지 않았을 때의 문제점들](https://github.com/yaezzin/TIL/issues/13)
 * [영속성 컨텍스트와 생명주기](https://github.com/yaezzin/TIL/issues/14)
 * [영속성 컨텍스트의 이점](https://github.com/yaezzin/TIL/issues/15)
