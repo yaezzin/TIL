@@ -1,6 +1,6 @@
 # TIL
 
-```⭐ BackEnd TIL ⭐```  
+```⭐ TIL ⭐```  
 
 어라라.. 그게 뭐였더라? 🤔   
 명확하게 설명하지 못하는 개념들을 공부하고 의문점들을 정리해놓는 공간
@@ -32,6 +32,8 @@
 * [트랜잭션 (Transaction)](https://github.com/yaezzin/TIL/issues/30)
 * [식별관계와 비식별 관계](https://github.com/yaezzin/backend-notes/issues/18)
 
+## 💡 Operating System
+* [운영체제 총정리]()
 
 ## 💡 Network
 * [네트워크 총 정리](https://github.com/yaezzin/TIL/issues/33)
