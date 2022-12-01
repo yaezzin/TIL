@@ -1,11 +1,30 @@
+```TIL``` 명확하게 모르는 개념들을 정리하고 기록하는 공간
+
 ## 💡 Java
 * [JVM의 구조와 동작방식](https://github.com/yaezzin/TIL/issues/21)
+* [가비지 컬렉션 (Garbage Collection)](https://github.com/yaezzin/TIL/issues/31)
+* [Call by Reference와 Call by Value의 차이]()
+* [원시타입(Primitive Type) vs 레퍼런스 타입(Reference Type)]()
 * [Static vs Non-Static](https://github.com/yaezzin/TIL/issues/22#issue-1332037927)
   * [Static과 메모리 적재 위치](https://github.com/yaezzin/TIL/issues/22#issuecomment-1208295619)
   * [Java의 main 메서드가 static인 이유](https://github.com/yaezzin/TIL/issues/22#issuecomment-1333531727)
 * [this()와 ](https://github.com/yaezzin/TIL/issues/27#issue-1341381062) [this](https://github.com/yaezzin/TIL/issues/27#issuecomment-1217698249)
-* [추상클래스와 인터페이스의 차이](https://github.com/yaezzin/TIL/issues/2)
-* [Garbage Collection](https://github.com/yaezzin/TIL/issues/31)
+* [추상클래스 vs 인터페이스](https://github.com/yaezzin/TIL/issues/2)
+* [다형성 (polymorphism)]()
+  * [istanceof 연산자]()
+* [접근 제어자]()
+* [Object 클래스의 clone() 메서드]()
+  * [깊은 복사(Deep Copy) vs 얕은 복사(Shallow Copy)]()
+* [String, StringBuilder, StringBuffer]()  
+* [래퍼(wrapper)클래스]()  
+* [컬렉션 프레임웍 (Collections Framewok)]()
+  * [ArrayList vs LinkedList]()
+  * [Vector]()
+  * [```Map``` - HashMap, LinkedHashMap, TreeMap]()
+  * [HashMap과 HashTable]()
+  * [```Set``` - HashSet, LinkedHashSet, TreeSet]()
+  * [Comparator와 Comparable]()
+  * [Properties]()
 
 ## 💡 Spring & JPA 
 * [Spring Data JDBC 공식문서 정복하기 🌱](https://github.com/yaezzin/TIL/issues/32)
