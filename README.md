@@ -1,16 +1,10 @@
-# TIL
-
-```⭐ TIL ⭐```  
-
-어라라.. 그게 뭐였더라? 🤔   
-명확하게 설명하지 못하는 개념들을 공부하고 의문점들을 정리해놓는 공간
-</br>
-
 ## 💡 Java
 * [JVM의 구조와 동작방식](https://github.com/yaezzin/TIL/issues/21)
-* [Static과 메모리 적재 위치](https://github.com/yaezzin/TIL/issues/22)
-* [추상클래스와 인터페이스의 차이](https://github.com/yaezzin/TIL/issues/2)
+* [Static vs Non-Static](https://github.com/yaezzin/TIL/issues/22#issue-1332037927)
+  * [Static과 메모리 적재 위치](https://github.com/yaezzin/TIL/issues/22#issuecomment-1208295619)
+  * [Java의 main 메서드가 static인 이유](https://github.com/yaezzin/TIL/issues/22#issuecomment-1333531727)
 * [this()와 ](https://github.com/yaezzin/TIL/issues/27#issue-1341381062) [this](https://github.com/yaezzin/TIL/issues/27#issuecomment-1217698249)
+* [추상클래스와 인터페이스의 차이](https://github.com/yaezzin/TIL/issues/2)
 * [Garbage Collection](https://github.com/yaezzin/TIL/issues/31)
 
 ## 💡 Spring & JPA 
