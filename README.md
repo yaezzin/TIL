@@ -1,4 +1,6 @@
-```TIL``` 명확하게 모르는 개념들을 정리하고 기록하는 공간
+# Today-I-Learned 
+
+명확하게 모르는 개념들을 정리하고 기록하는 공간
 
 ## 💡 Java
 * [JVM의 구조와 동작방식](https://github.com/yaezzin/TIL/issues/21)
@@ -9,10 +11,12 @@
   * [Static과 메모리 적재 위치](https://github.com/yaezzin/TIL/issues/22#issuecomment-1208295619)
   * [Java의 main 메서드가 static인 이유](https://github.com/yaezzin/TIL/issues/22#issuecomment-1333531727)
 * [this()와 ](https://github.com/yaezzin/TIL/issues/27#issue-1341381062) [this](https://github.com/yaezzin/TIL/issues/27#issuecomment-1217698249)
-* [추상클래스 vs 인터페이스](https://github.com/yaezzin/TIL/issues/2)
-* [다형성 (polymorphism)]()
-  * [istanceof 연산자]()
-* [접근 제어자]()
+* [접근 제어자](https://github.com/yaezzin/TIL/issues/34#issue-1479117147)
+* [오버로딩 vs 오버라이딩]()
+* [다형성 (polymorphism)](https://github.com/yaezzin/TIL/issues/35#issue-1484253040)
+  * [업캐스팅(Up-casting), 다운캐스팅(Down-casting)](https://github.com/yaezzin/TIL/issues/35#issuecomment-1342434822)
+  * [istanceof 연산자](https://github.com/yaezzin/TIL/issues/35#issuecomment-1342435480)
+* [추상클래스 vs 인터페이스](https://github.com/yaezzin/TIL/issues/2)  
 * [Object 클래스의 clone() 메서드]()
   * [깊은 복사(Deep Copy) vs 얕은 복사(Shallow Copy)]()
 * [String, StringBuilder, StringBuffer]()  
