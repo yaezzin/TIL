@@ -39,7 +39,12 @@
   * [Comparator와 Comparable]()
   * [Properties]()
 
-## 💡 Spring & JPA 
+## 💡 Spring
+
+### Spring
+* [Spring vs SpringBoot]()
+* [AOP (Aspect Oriented Programming )]()
+* [의존성 주입(DI)과 제어의 역전(IoC)]()
 
 ### JPA
 * [JPA를 사용하지 않았을 때의 문제점들](https://github.com/yaezzin/TIL/issues/13)
@@ -50,12 +55,14 @@
 * [프록시와 지연로딩](https://github.com/yaezzin/TIL/issues/20)
 * [@Transactional 사용 이유](https://github.com/yaezzin/TIL/issues/1)
 * [복합키 @IdClass와 @EmbeddedId 선택](https://github.com/yaezzin/TIL/issues/19)
+* [JPA N+1 문제]()
 
 ### JDBC
 * [Spring Data JDBC 공식문서 정복하기 🌱](https://github.com/yaezzin/TIL/issues/32)
-* [JDBC Template 기록하기](https://minutemaid.tistory.com/177?category=1256443)
 * [JDBC와 JPA]()
-* [JDBC, SQLMAPPER, ORM]()
+* [JDBC Template 기록하기](https://minutemaid.tistory.com/177?category=1256443)
+* [JDBC, SQLMAPPER, ORM](https://github.com/yaezzin/TIL/issues/36)
+
 
 ### Security & Jwt
 * [Spring Security를 이용한 Jwt 적용]()
