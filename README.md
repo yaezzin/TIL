@@ -5,7 +5,7 @@
 ## 💡 Java
 
 ### Basic
-
+* [클래스와 객체](https://github.com/yaezzin/TIL/issues/37)
 * [JVM의 구조와 동작방식](https://github.com/yaezzin/TIL/issues/21)
 * [가비지 컬렉션 (Garbage Collection)](https://github.com/yaezzin/TIL/issues/31)
 * [Call by Reference와 Call by Value의 차이]()
@@ -18,7 +18,7 @@
 ### OOP
 
 * [접근 제어자](https://github.com/yaezzin/TIL/issues/34#issue-1479117147)
-* [오버로딩 vs 오버라이딩]()
+* [오버로딩 vs 오버라이딩](https://github.com/yaezzin/TIL/issues/38#issue-1526826170)
 * [다형성 (polymorphism)](https://github.com/yaezzin/TIL/issues/35#issue-1484253040)
   * [업캐스팅(Up-casting), 다운캐스팅(Down-casting)](https://github.com/yaezzin/TIL/issues/35#issuecomment-1342434822)
   * [istanceof 연산자](https://github.com/yaezzin/TIL/issues/35#issuecomment-1342435480)
