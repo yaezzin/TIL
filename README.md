@@ -2,6 +2,12 @@
 
 명확하게 모르는 개념들을 정리하고 기록하는 공간
 
+- [x] [Java](#-java) 
+- [x] [Spring](#-spring)
+- [x] [OS](#-operating-system)
+- [x] [Database](#-database)
+- [x] [Network](#-network)
+
 ## 💡 Java
 
 ### Basic
@@ -34,26 +40,34 @@
 * [Check Exception와 Unchecked Exception]()
 * [throw와 throws 차이](https://github.com/yaezzin/TIL/issues/39#issuecomment-1383566793)
 
-### Collection FrameWork
- 
-* [```List```](https://github.com/yaezzin/TIL/issues/40#issue-1536023208)
-  * [ArrayList, LinkedList, Vector](https://github.com/yaezzin/TIL/issues/40#issuecomment-1385118862)
-  * [ArrayList와 LinkedList 성능 차이](https://github.com/yaezzin/TIL/issues/40#issuecomment-1386646821)
-* [```Map```](https://github.com/yaezzin/TIL/issues/40#issue-1536023208)
-  * [HashMap, LinkedHashMap, TreeMap]()
-  * [HashMap과 HashTable]()
-* [```Set```](https://github.com/yaezzin/TIL/issues/40#issue-1536023208)
-  * [HashSet, LinkedHashSet, TreeSet]()
-* [Iterable과 Iterator](https://github.com/yaezzin/TIL/issues/41#issue-1548608308)
-* [Comparator와 Comparable]()
-* [Properties]()
-
 ### java.lang
 
 * [Object 클래스의 clone() 메서드]()
   * [깊은 복사(Deep Copy) vs 얕은 복사(Shallow Copy)]()
 * [String, StringBuilder, StringBuffer]()  
 * [래퍼(wrapper)클래스]() 
+
+### Collection FrameWork
+ 
+* [```List```](https://github.com/yaezzin/TIL/issues/40#issue-1536023208)
+  * [ArrayList, LinkedList, Vector](https://github.com/yaezzin/TIL/issues/40#issuecomment-1385118862)
+  * [ArrayList와 LinkedList 성능 차이](https://github.com/yaezzin/TIL/issues/40#issuecomment-1386646821)
+* [```Set```](https://github.com/yaezzin/TIL/issues/40#issue-1536023208)
+  * [HashSet](https://github.com/yaezzin/TIL/issues/43) 
+  * [TreeSet](https://github.com/yaezzin/TIL/issues/44)
+* [```Map```](https://github.com/yaezzin/TIL/issues/40#issue-1536023208)
+  * [HashMap]()
+  * [LinkedHashMap]()
+  * [TreeMap]()
+  * [HashMap과 HashTable]()  
+* [Iterable과 Iterator](https://github.com/yaezzin/TIL/issues/41#issue-1548608308)
+* [Comparator와 Comparable](https://github.com/yaezzin/TIL/issues/42)
+
+### Generics
+
+* [지네릭스(Generics)](https://github.com/yaezzin/TIL/issues/45)
+* [와일드 카드]()
+
 
 ## 💡 Spring
 
