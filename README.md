@@ -93,9 +93,10 @@
 * [JDBC Template 기록하기](https://minutemaid.tistory.com/177?category=1256443)
 * [JDBC, SQLMAPPER, ORM](https://github.com/yaezzin/TIL/issues/36)
 
+### MSA
 
-### Security & Jwt
-* [Spring Security를 이용한 Jwt 적용]()
+* [MSA 아키텍쳐 패턴](https://hungry-tithonia-878.notion.site/c3ef66c3fa3c471b9b668ec67922cf85)
+
 
 ## 💡 Database
 * [인덱스 (Index)](https://github.com/yaezzin/backend-notes/issues/28)
@@ -104,7 +105,6 @@
 * [식별관계와 비식별 관계](https://github.com/yaezzin/backend-notes/issues/18)
 
 ## 💡 Operating System
-* [운영체제 총정리]()
 
 ## 💡 Network
 * [네트워크 총 정리](https://github.com/yaezzin/TIL/issues/33)
