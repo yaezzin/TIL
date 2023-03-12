@@ -1,6 +1,6 @@
 # Today-I-Learned 
 
-명확하게 모르는 개념들을 정리하고 기록하는 공간
+명확하게 모르는 개념들을 모두 정리하고 기록중
 
 - [x] [Java](#-java) 
 - [x] [Spring](#-spring)
@@ -68,13 +68,19 @@
 * [지네릭스(Generics)](https://github.com/yaezzin/TIL/issues/45)
 * [와일드 카드]()
 
-
 ## 💡 Spring
 
 ### Spring
-* [Spring vs SpringBoot]()
-* [AOP (Aspect Oriented Programming )]()
+* [🌱 Spring vs SpringBoot]()
+* [AOP (Aspect Oriented Programming)]()
 * [의존성 주입(DI)과 제어의 역전(IoC)]()
+* [🔒 Spring Security 정리해보기](https://hungry-tithonia-878.notion.site/Spring-Security-8b986cb0a61c415bbe3807c37d73d22e)
+    * [TokenProvider, Authentication, ...](https://hungry-tithonia-878.notion.site/TokenProvider-ae0f738f7fd3406ca55aaca95b85d858)
+    * [UserDetailsService](https://hungry-tithonia-878.notion.site/UserDetailService-c83c40495aa34199aa0af7847c0d5a77)
+    * [OncePerRequestFilter + SecurityContextHolder](https://hungry-tithonia-878.notion.site/OncePerRequestFilter-SecurityContextHolder-d774a5d5827f4f2b966c2727d60a297f)
+    * [AuthenticationEntryPoint](https://hungry-tithonia-878.notion.site/AuthenticationEntryPoint-401-8869ffcae9ea440681c57ad1d486c694)
+    * [CustomAccessDeniedHandler](https://hungry-tithonia-878.notion.site/CustomAccessDeniedHandler-403-fbfff73033a147338a3a9ef5e6a7d8a8)
+    * [Principal 객체와 UserDetails 객체의 차이?](https://hungry-tithonia-878.notion.site/Principal-UserDetails-c9a07c42d28f4b3dab5e14f05a1314c8)
 
 ### JPA
 * [JPA를 사용하지 않았을 때의 문제점들](https://github.com/yaezzin/TIL/issues/13)
@@ -95,8 +101,7 @@
 
 ### MSA
 
-* [MSA 아키텍쳐 패턴](https://hungry-tithonia-878.notion.site/c3ef66c3fa3c471b9b668ec67922cf85)
-
+* [MSA 아키텍쳐 패턴 🌥](https://hungry-tithonia-878.notion.site/c3ef66c3fa3c471b9b668ec67922cf85)
 
 ## 💡 Database
 * [인덱스 (Index)](https://github.com/yaezzin/backend-notes/issues/28)
