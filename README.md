@@ -113,5 +113,11 @@
 
 ## 💡 Network
 * [네트워크 총 정리](https://github.com/yaezzin/TIL/issues/33)
+* [프로토콜](https://hungry-tithonia-878.notion.site/2c1d65c4d40d43769067cdf96fae23a6)
+* [OSI 7계층](https://hungry-tithonia-878.notion.site/OSI-7-cd026180eabd4981b45f550392f41842)
+  * [CRC 기법](https://hungry-tithonia-878.notion.site/CRC-ad64db3e4795470bb1a6909092ad1ba5)
+* [흐름제어]()
+  * [Stop-and-Wait](https://hungry-tithonia-878.notion.site/Stop-and-Wait-3c5c61b049c249a59a3b02ad63de89d6)
+  * [Sliding Window](https://hungry-tithonia-878.notion.site/Sliding-Window-eb91d2d322fc4715bffc6ed6d116379f)
 * [HTTP (HyperText Transfer Protocol)](https://github.com/yaezzin/TIL/issues/25)
 * [패킷의 구조](https://github.com/yaezzin/TIL/issues/24)
