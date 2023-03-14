@@ -112,12 +112,19 @@
 ## 💡 Operating System
 
 ## 💡 Network
-* [네트워크 총 정리](https://github.com/yaezzin/TIL/issues/33)
+* [네트워크 총 정리](https://hungry-tithonia-878.notion.site/9c7bb9cb416d4c44b0393404ff831caa?v=f13a5e21e94543c3856d6c6939f031bb)
 * [프로토콜](https://hungry-tithonia-878.notion.site/2c1d65c4d40d43769067cdf96fae23a6)
 * [OSI 7계층](https://hungry-tithonia-878.notion.site/OSI-7-cd026180eabd4981b45f550392f41842)
   * [CRC 기법](https://hungry-tithonia-878.notion.site/CRC-ad64db3e4795470bb1a6909092ad1ba5)
 * [흐름제어]()
   * [Stop-and-Wait](https://hungry-tithonia-878.notion.site/Stop-and-Wait-3c5c61b049c249a59a3b02ad63de89d6)
   * [Sliding Window](https://hungry-tithonia-878.notion.site/Sliding-Window-eb91d2d322fc4715bffc6ed6d116379f)
+  * [MMS & MTU]()
+* [네트워크 연결 구분 LAN, MAN, WAN](https://hungry-tithonia-878.notion.site/LAN-MAN-WAN-ed8a66cc5025475d8e69f0fb5fc591e4)
+* [네트워크 통신 방식](https://hungry-tithonia-878.notion.site/7c8a29f4626a45f5b42c2b6a6f4c1aa2)
+* [MAC 주소](https://hungry-tithonia-878.notion.site/MAC-9054efd00671427d8bdeb038500b74bd)
+* [IP 주소](https://hungry-tithonia-878.notion.site/IP-af1700a898944625910c2dbf31945752)
+  * [IPsec](https://hungry-tithonia-878.notion.site/IPsec-33aada9a081b4cf7a91a6477e8b844b7)
+* [TCP &](https://hungry-tithonia-878.notion.site/TCP-e15b6fb7b72842c492d4ee8dc86378bd)[  UDP & ](https://hungry-tithonia-878.notion.site/UDP-8c54ecf665b2460fab6ccfc506a032fd)[ARP]()
 * [HTTP (HyperText Transfer Protocol)](https://github.com/yaezzin/TIL/issues/25)
 * [패킷의 구조](https://github.com/yaezzin/TIL/issues/24)
