@@ -1,6 +1,6 @@
 # Today-I-Learned 
 
-명확하게 모르는 개념들을 모두 정리하고 기록중
+명확하게 모르는 개념들을 모두 정리하고 기록하는 공간
 
 - [x] [Java](#-java) 
 - [x] [Spring](#-spring)
@@ -8,9 +8,9 @@
 - [x] [Database](#-database)
 - [x] [Network](#-network)
 
-## 💡 Java
+## Java
 
-### Basic
+#### Basic
 * [클래스와 객체](https://github.com/yaezzin/TIL/issues/37)
 * [JVM의 구조와 동작방식](https://github.com/yaezzin/TIL/issues/21)
 * [가비지 컬렉션 (Garbage Collection)](https://github.com/yaezzin/TIL/issues/31)
@@ -21,7 +21,7 @@
   * [Java의 main 메서드가 static인 이유](https://github.com/yaezzin/TIL/issues/22#issuecomment-1333531727)
 * [this()와 ](https://github.com/yaezzin/TIL/issues/27#issue-1341381062) [this](https://github.com/yaezzin/TIL/issues/27#issuecomment-1217698249)
 
-### OOP
+#### OOP
 
 * [접근 제어자](https://github.com/yaezzin/TIL/issues/34#issue-1479117147)
 * [오버로딩 vs 오버라이딩](https://github.com/yaezzin/TIL/issues/38#issue-1526826170)
@@ -30,7 +30,7 @@
   * [istanceof 연산자](https://github.com/yaezzin/TIL/issues/35#issuecomment-1342435480)
 * [추상클래스 vs 인터페이스](https://github.com/yaezzin/TIL/issues/2)  
 
-### Exception Handling
+#### Exception Handling
 
 * [예외처리(Exception Handling)](https://github.com/yaezzin/TIL/issues/39#issue-1534331369)
   * [try-catch-finally](https://github.com/yaezzin/TIL/issues/39#issuecomment-1383527100)
@@ -40,14 +40,14 @@
 * [Check Exception와 Unchecked Exception]()
 * [throw와 throws 차이](https://github.com/yaezzin/TIL/issues/39#issuecomment-1383566793)
 
-### java.lang
+#### java.lang
 
 * [Object 클래스의 clone() 메서드]()
   * [깊은 복사(Deep Copy) vs 얕은 복사(Shallow Copy)]()
 * [String, StringBuilder, StringBuffer]()  
 * [래퍼(wrapper)클래스]() 
 
-### Collection FrameWork
+#### Collection FrameWork
  
 * [```List```](https://github.com/yaezzin/TIL/issues/40#issue-1536023208)
   * [ArrayList, LinkedList, Vector](https://github.com/yaezzin/TIL/issues/40#issuecomment-1385118862)
@@ -63,14 +63,14 @@
 * [Iterable과 Iterator](https://github.com/yaezzin/TIL/issues/41#issue-1548608308)
 * [Comparator와 Comparable](https://github.com/yaezzin/TIL/issues/42)
 
-### Generics
+#### Generics
 
 * [지네릭스(Generics)](https://github.com/yaezzin/TIL/issues/45)
 * [와일드 카드]()
 
-## 💡 Spring
+## Spring
 
-### Spring
+#### Spring
 * [🌱 Spring vs SpringBoot]()
 * [AOP (Aspect Oriented Programming)]()
 * [의존성 주입(DI)과 제어의 역전(IoC)]()
@@ -82,7 +82,7 @@
     * [CustomAccessDeniedHandler](https://hungry-tithonia-878.notion.site/CustomAccessDeniedHandler-403-fbfff73033a147338a3a9ef5e6a7d8a8)
     * [Principal 객체와 UserDetails 객체의 차이?](https://hungry-tithonia-878.notion.site/Principal-UserDetails-c9a07c42d28f4b3dab5e14f05a1314c8)
 
-### JPA
+#### JPA
 * [JPA를 사용하지 않았을 때의 문제점들](https://github.com/yaezzin/TIL/issues/13)
 * [영속성 컨텍스트와 생명주기](https://github.com/yaezzin/TIL/issues/14)
 * [영속성 컨텍스트의 이점](https://github.com/yaezzin/TIL/issues/15)
@@ -93,44 +93,67 @@
 * [복합키 @IdClass와 @EmbeddedId 선택](https://github.com/yaezzin/TIL/issues/19)
 * [JPA N+1 문제]()
 
-### JDBC
+#### JDBC
 * [Spring Data JDBC 공식문서 정복하기 🌱](https://github.com/yaezzin/TIL/issues/32)
 * [JDBC와 JPA]()
 * [JDBC Template 기록하기](https://minutemaid.tistory.com/177?category=1256443)
 * [JDBC, SQLMAPPER, ORM](https://github.com/yaezzin/TIL/issues/36)
 
-### MSA
+#### MSA
 
 * [MSA 아키텍쳐 패턴 🌥](https://hungry-tithonia-878.notion.site/c3ef66c3fa3c471b9b668ec67922cf85)
 
-## 💡 Database
+## Database
 * [인덱스 (Index)](https://github.com/yaezzin/backend-notes/issues/28)
 * [정규화 (Normalization)](https://github.com/yaezzin/TIL/issues/29)
 * [트랜잭션 (Transaction)](https://github.com/yaezzin/TIL/issues/30)
 * [식별관계와 비식별 관계](https://github.com/yaezzin/backend-notes/issues/18)
 
-## 💡 Operating System
+## Operating System
 
-## 💡 Network
-* [네트워크 총 정리](https://hungry-tithonia-878.notion.site/9c7bb9cb416d4c44b0393404ff831caa?v=f13a5e21e94543c3856d6c6939f031bb)
+## Network
+
+[🔎 네트워크 총 정리](https://hungry-tithonia-878.notion.site/9c7bb9cb416d4c44b0393404ff831caa?v=f13a5e21e94543c3856d6c6939f031bb)
+
+#### Basic
 * [프로토콜](https://hungry-tithonia-878.notion.site/2c1d65c4d40d43769067cdf96fae23a6)
+* [네트워크 토폴로지](https://hungry-tithonia-878.notion.site/2ce9cb016fc4437bb844476dd4c077a2)
+* [네트워크 연결 구분, 인터네트워킹](https://hungry-tithonia-878.notion.site/LAN-MAN-WAN-ed8a66cc5025475d8e69f0fb5fc591e4)
+* [네트워크 통신 방식](https://hungry-tithonia-878.notion.site/7c8a29f4626a45f5b42c2b6a6f4c1aa2)
+
+#### Network Architecture
 * [OSI 7계층](https://hungry-tithonia-878.notion.site/OSI-7-cd026180eabd4981b45f550392f41842)
   * [CRC 기법](https://hungry-tithonia-878.notion.site/CRC-ad64db3e4795470bb1a6909092ad1ba5)
-* [흐름제어]()
-  * [Stop-and-Wait](https://hungry-tithonia-878.notion.site/Stop-and-Wait-3c5c61b049c249a59a3b02ad63de89d6)
-  * [Sliding Window](https://hungry-tithonia-878.notion.site/Sliding-Window-eb91d2d322fc4715bffc6ed6d116379f)
-  * [MMS & MTU](https://hungry-tithonia-878.notion.site/MMS-MTU-9be0eb6b246646bd8962304aaab6c812)
-* [네트워크 토폴로지](https://hungry-tithonia-878.notion.site/2ce9cb016fc4437bb844476dd4c077a2)
-* [네트워크 연결 구분 LAN, MAN, WAN](https://hungry-tithonia-878.notion.site/LAN-MAN-WAN-ed8a66cc5025475d8e69f0fb5fc591e4)
-* [네트워크 통신 방식](https://hungry-tithonia-878.notion.site/7c8a29f4626a45f5b42c2b6a6f4c1aa2)
+* [TCP/IP 모델](https://hungry-tithonia-878.notion.site/TCP-IP-4454efccfeac4824b5528ee6121e204f)
+* [캡슐화와 역캡슐화]()
+
+#### Network Interface
+* [랜카드 NIC](https://hungry-tithonia-878.notion.site/NIC-a0ad791c41c14f45b48ba666306bc12b)
 * [MAC 주소](https://hungry-tithonia-878.notion.site/MAC-9054efd00671427d8bdeb038500b74bd)
   * [ARP ]() & [ RARP]()
+* [스위치]()
+* [이더넷]()
+
+#### Internet
 * [IP 주소](https://hungry-tithonia-878.notion.site/IP-af1700a898944625910c2dbf31945752)
   * [IPsec](https://hungry-tithonia-878.notion.site/IPsec-33aada9a081b4cf7a91a6477e8b844b7)
   * [NAT, 사설IP와 공인IP](https://hungry-tithonia-878.notion.site/IP-IP-NAT-85186188f3454b739303852e542b27d7)
   * [포트포워딩](https://hungry-tithonia-878.notion.site/3ec37a5b2d204ac58a54c881df3fc741)
+* [라우터]()  
+  
+#### Transport
 * [TCP ](https://hungry-tithonia-878.notion.site/TCP-e15b6fb7b72842c492d4ee8dc86378bd) & [ UDP ](https://hungry-tithonia-878.notion.site/UDP-8c54ecf665b2460fab6ccfc506a032fd)
   * [3 Way Handshake](https://hungry-tithonia-878.notion.site/3-way-handshaking-59e1362ab6534d23845f6898887032bd) 
   * [4 Way Handshake](https://hungry-tithonia-878.notion.site/4-way-handshaking-11a4b15eb4544a05b27c760cb1873eb0)
+* [UDP]()
+* [흐름제어]()
+  * [Stop-and-Wait](https://hungry-tithonia-878.notion.site/Stop-and-Wait-3c5c61b049c249a59a3b02ad63de89d6)
+  * [Sliding Window](https://hungry-tithonia-878.notion.site/Sliding-Window-eb91d2d322fc4715bffc6ed6d116379f)
+  * [MMS & MTU](https://hungry-tithonia-878.notion.site/MMS-MTU-9be0eb6b246646bd8962304aaab6c812)
+
+#### Application
+
 * [HTTP (HyperText Transfer Protocol)](https://github.com/yaezzin/TIL/issues/25)
+
+#### ETC
 * [패킷의 구조](https://github.com/yaezzin/TIL/issues/24)
