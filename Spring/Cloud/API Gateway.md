@@ -4,7 +4,7 @@
 
 * 다양한 마이크로서비스들의 요청을 받아들이고, 필요한 경우 변환, 라우팅, 필터링, 인증, 인가, 로깅 등의 작업을 수행한 후, 클라이언트에게 전달
 
-<img width="600" alt="스크린샷 2023-05-10 오후 7 03 08" src="https://github.com/yaezzin/TIL/assets/97823928/2a6e80d7-fed9-4a93-a198-721ffa927579">
+![image](https://github.com/yaezzin/TIL/assets/97823928/e70fd803-1caa-46f6-aeb8-a8e14ae0454c)
 
 * ```요청 라우팅```
   * 클라이언트의 요청을 해당하는 백엔드 서비스로 라우팅 
