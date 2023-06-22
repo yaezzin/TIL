@@ -14,12 +14,9 @@
   * [플러시 - DB 동기화](https://github.com/yaezzin/TIL/blob/main/JPA/%ED%94%8C%EB%9F%AC%EC%8B%9C%20flush.md)
  
 * [지연로딩과 즉시로딩](https://github.com/yaezzin/TIL/blob/main/JPA/%EC%A6%89%EC%8B%9C%EB%A1%9C%EB%94%A9%EA%B3%BC%20%EC%A7%80%EC%97%B0%EB%A1%9C%EB%94%A9.md)
-  * [지연로딩과 즉시로딩 선택 기준]()
-  * [프록시 (Proxy)]() 
-  * [지연로딩 시 N+1 문제 해결법]()
-  * [영속성 전이 CASCADE]()
-  * [고아 객체]()
-    
+  * [프록시 (Proxy)와 지연로딩](https://github.com/yaezzin/TIL/blob/main/JPA/%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80%20%EC%A7%80%EC%97%B0%EB%A1%9C%EB%94%A9.md) 
+  * [영속성 전이 CASCADE, 고아객체](https://github.com/yaezzin/TIL/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EC%A0%84%EC%9D%B4.md)
+
 * [기본 키 생성 전략](https://github.com/yaezzin/TIL/blob/main/JPA/%EA%B8%B0%EB%B3%B8%ED%82%A4%20%EC%83%9D%EC%84%B1%20%EC%A0%84%EB%9E%B5%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D%20%EC%B0%A8%EC%9D%B4.md)
 
 * [연관 관계 매핑]()
@@ -31,8 +28,12 @@
   * [다대다 N:M - ```@ManyToMany```](https://github.com/yaezzin/TIL/blob/main/JPA/%EB%8B%A4%EB%8C%80%EB%8B%A4%20N%3AM.md)
   * [연관 관계 주인](https://github.com/yaezzin/TIL/blob/main/JPA/%EC%97%B0%EA%B4%80%20%EA%B4%80%EA%B3%84%20%EC%A3%BC%EC%9D%B8.md)
 
-* [상속 관계 매핑]()
-* [조인 테이블]()
+* [ETC]()
+  * [상속 관계 매핑](https://github.com/yaezzin/TIL/blob/main/JPA/%EC%83%81%EC%86%8D%20%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)
+  * [@MappedSuperclass](https://github.com/yaezzin/TIL/blob/main/JPA/%40MappedSuperclass.md)
+  * [복합키와 식별 관계 매핑]()
+  * [@IdClass, @EmbeddedId 어떤 것이 더 적합할까?](https://github.com/yaezzin/TIL/blob/main/JPA/%EB%B3%B5%ED%95%A9%ED%82%A4%20%40IdClass%20%40EmbeddedId.md)
+  * [조인 테이블]()
 
 * [트랜잭션 관리]()
   * [@Transactional 애너테이션]()
