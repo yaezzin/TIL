@@ -51,7 +51,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent # manage.py가 있는 폴더
 load_dotenv(BASE_DIR / '.env')  # .env 파일 로드
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
-`
+```
 
 #### 7. 서버 실행
 
