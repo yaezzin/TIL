@@ -78,3 +78,23 @@ Company.objects
 #### 결론
 * prefetch_related()를 filter() 뒤에 두어서 실수를 방지하자
 * `annotate` - `select_related` - `filter` - `prefetch_related` 순으로 작성하는 것을 추천 (실제 발생하는 SQL의 순서와 가장 유사하므로) 
+
+## 캐시를 재활용하지 못하는 쿼리셋 호출
+
+```python
+company_list = list(Company.objects.prefetch_related("product_set").all()) # 여기서 즉시 로딩함
+company = company_list[0] # 캐싱되어있기 때문에 쿼리 안날라감
+
+company.product_set.all() # 여기도 result_cache를 재사용
+company.product_set.filter(name="~~~") # 특정 상품을 찾려하면 캐싱된 결과를 사용하지 않고 SQL을 날림
+```
+
+```python
+fire_noodle_product_list = [product for product in company.product_set.all() if product.name="~~~"]
+```
+* 리스트컴프리헨션을 사용하면 추가쿼리가 안나감
+
+## RawQuerySet은 Native SQL이 아니다
+
+* 원하는 SQL을 위해 QeurySet을 완전히 포기하지는 말자. raw()를 사용하자 (cursor.execute()말고..)
+* RawQuerySet과 QuerySet은 메인쿼리를 NativeSQL로 구현한다는 차이점이 있다
