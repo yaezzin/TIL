@@ -283,7 +283,123 @@ class Person private constructor(
   * `static` : 클래스가 인스턴스화 될 때 새로운 값이 복제되는 것이 아닌 정적으로 인스턴스끼리의 값을 공유
   * `companion object` : 클래스와 동행하는 유일한 오브젝트 
 * const 변수를 붙이게 되면 컴파일 시에 변수가 할당 (붙이지 않으면 런타임 시 할당) - 진짜 상수에 붙이기 위한 용도
+* 자바에서 companion object를 사용하려면 `@JVMStatic`을 붙여야 함
 
 ## Singleton
 
+```kotlin
+object Singleton {
+    var a: Int = 0
+}
+```
+* 싱글톤 : 단 하나의 인스턴스만을 갖는 클래스 
+* `object`로 선언 해주면 되나, 직접적으로 싱글톤 객체를 만들 일은 거의 X
 
+## 익명 클래스
+
+```java
+public static void main(String[] args) {
+    // new 타입이름()
+    moveSomething(new Movable() {}
+        @Override
+        public void move() { System.out.println("움직움직"); }
+
+        @Override
+        public void fly() { System.out.println("날아랏"); }
+    });
+
+    private static void moveSomthing(Movable movable) {
+        movable.move();
+        movable.fly();
+    }
+}
+```
+* `익명 클래스` : 특정 인터페이스나 클래스를 상속받은 구현체를 일회성으로 사용할 때 쓰는 클래스
+
+```kotlin
+fun main() {
+    moveSomething(object: Movable {
+        override fun move() { println("움직움직")}
+        ...
+    })
+}
+```
+* `object: 타입이름`
+
+# Nested Class
+
+#### Static 클래스
+
+* 클래스 안에 static을 붙인 클래스로, 외부 클래스를 직접적으로 참조 불가능
+
+#### 내부 클래스
+
+```
+public class JavaHouse {
+    ...
+
+    public class LivingRoom {
+        ...
+        public String getAddress() {
+            return JavaHouse.this.address; // 바깥 클래스인 JavaHouse를 바로 참조
+        }
+    }
+}
+
+```
+* 외부 클래스 직접 참조 가능
+* 하지만 아래와 같은 이유 때문에 바깥 클래스에 대한 참조를 권장하지 않음
+  * 내부 클래스는 숨겨진 외부 클래스 정보를 가지고 있어, 참조를 해지하지 못하는 경우 메모리 누수가 생길 수 있고, 이를 디버깅하기 어려움
+  * 내부 클래스의 직렬화 형태가 명확하게 정의되지 않아 직렬화에 제한 O
+ 
+```kotlin
+class House(var address: String,) {
+    var livingRoom = this.LivingRoom(10.0)
+
+    inner class LivingRoom(
+        private var area: Double,
+    ) {
+        val address: String
+            get)( = this@HOuse.address
+    }
+}
+```
+* 기본적으로 바깥 클래스를 참조하지 않으나, 참조하고 싶다면 참조를 위해 `inner`, `this@바깥클래스`를 사용
+
+# Data Class
+
+```kotlin
+data class PersonDto(
+    val name: String,
+    val age: int,
+)
+```
+* 계층간 데이터 전달을 위한 DTO
+* `data` 키워드를 붙여주면 equals, hashCode, toString을 자동으로 만들어줌
+
+# Enum Class
+
+```
+fun handleCountry(country: Country) {
+    // else를 적어줄 필요 X
+    when (country) {
+        Country.KOREA -> TODO()
+        Country.AMERICA -> TODO()
+    }
+}
+
+enum class Country(
+    private val code: String,
+) {
+    KOREA("KO"),
+    AMERICA("US)
+}
+```
+* 컴파일러가 country의 모든 타입을 알고 있어 다른 타입에 대한 로직(else)을 작성하지 않아도 되며, Enum에 변화가 있으면 파악 가능!
+  
+# Sealed Class & Sealed Interface
+
+상속이 가능하도록 추상클래스를 만들고 싶은데, 외부에서는 이 클래스를 상속받지 않으면 하는 경우 
+* 컴파일 타임 때 하위 클래스의 타입을 모두 기억함. 즉 런타임때 클래스 타입이 추가될 수 없음
+* 하위 클래스는 같은 패키지에 있어야 함
+* Enum과 달리 클래스를 상속받을 수 있음, 하위 클래스는 멀티 인스턴스가 가능
